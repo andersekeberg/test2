@@ -9,13 +9,12 @@
     "postinstall": "npm run install:client && npm run install:server",
     "install:client": "cd client && npm install --include=dev",
     "install:server": "cd server && npm install --include=dev",
-    "build": "parcel build index.html",
+    "build": "npm run build:client",
     "build:client": "cd client && npm run build",
     "start": "cd server && npm start"
   },
   "engines": {
     "node": "20.11.0"
-
   },
   "name": "heroku2",
   "version": "1.0.0",
