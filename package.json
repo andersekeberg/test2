@@ -13,6 +13,10 @@
     "build:client": "cd client && npm run build",
     "start": "cd server && npm start"
   },
+  "engines": {
+    "node": "20.11.0"
+
+  },
   "name": "heroku2",
   "version": "1.0.0",
   "main": "index.js",
